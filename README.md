@@ -79,6 +79,84 @@ http://<your-domain-or-localhost>/api
 
 ---
 
+---
+
+## 🧩 MVP List
+
+_Epsy, and Etsy clone, is an application providing a wide range of unique handmade items for the users to choose and order from._
+
+_Last updated by chinweenie on Sep 10, 2019 (6 revisions)_
+
+---
+
+### ✅ 1. Hosting on Heroku – Day 1
+
+- Deploy initial version to Heroku.
+
+---
+
+### ✅ 2. New Account Creation & Login – Day 1–2
+
+- Users can:
+  - Sign up, sign in, and log out.
+  - Access personal features only when logged in (e.g., account info, cart, reviews).
+- UI:
+  - Modal form for login/signup.
+  - Session-based access control.
+
+---
+
+### ✅ 3. Shop and Products – Day 3–4
+
+- Users can:
+  - Create their own shop.
+  - Add products to their shop.
+- UI:
+  - Styled navbar with categories and auth buttons.
+
+---
+
+### ✅ 4. Searches and Categories – Day 5–6
+
+- Features:
+  - View products by category.
+  - Submit search queries and view matching product results.
+  - Autocomplete search bar with suggested product links.
+
+---
+
+### ✅ 5. Shopping Cart – Day 7–8 _(Logged-in users only)_
+
+- Users can:
+  - Add items to cart from product page.
+  - View all items in the cart on dedicated cart page.
+  - View and adjust items in checkout page.
+  - Modify quantity or remove items from cart.
+
+---
+
+### ✅ 6. Favorites – Day 9–10 _(Logged-in users only)_
+
+- Users can:
+  - Favorite categories, shops, and products.
+  - View favorited items by type.
+- Shop owners can:
+  - See who favorited their shops/products.
+
+---
+
+### ✅ 7. Reviews – Day 11–12 _(Logged-in users only)_
+
+- Users can:
+  - Add reviews to products.
+- All users (including guests) can:
+  - View product reviews list.
+
+---
+
+> 📅 This MVP plan helps prioritize development by day and feature set. You can adjust the timeline or expand features based on your team's velocity.
+
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
