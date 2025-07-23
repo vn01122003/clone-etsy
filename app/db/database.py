@@ -5,7 +5,7 @@ from typing import Generator
 from app.core.config import settings
 
 
-DATABASE_URL = f"postgresql://{settings.db_username}:{settings.db_password}@{settings.db_hostname}:{settings.db_port}/{settings.db_name}"
+DATABASE_URL = settings.database_url
 
 # Establish a connection to the PostgreSQL database
 engine = create_engine(DATABASE_URL)
